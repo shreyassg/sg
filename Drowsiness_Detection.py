@@ -14,7 +14,7 @@ def eye_aspect_ratio(eye):
 thresh = 0.25
 frame_check = 20
 detect = dlib.get_frontal_face_detector()
-predict = dlib.shape_predictor("")# Dat file is the crux of the code
+predict = dlib.shape_predictor("https://github.com/shreyassg/sg/edit/master/Drowsiness_Detection.py")# Dat file is the crux of the code
 
 (lStart, lEnd) = face_utils.FACIAL_LANDMARKS_68_IDXS["left_eye"]
 (rStart, rEnd) = face_utils.FACIAL_LANDMARKS_68_IDXS["right_eye"]
