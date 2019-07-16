@@ -1,2 +1,0 @@
-# sg
-ml &amp; AI
